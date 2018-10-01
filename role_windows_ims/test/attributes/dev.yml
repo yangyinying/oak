@@ -1,0 +1,3 @@
+---
+  windows_svc_user: 'vagrant'
+  sledgehammer_svc_user: 'vagrant'

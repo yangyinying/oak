@@ -1,0 +1,42 @@
+---
+driver:
+  name: vagrant
+  gui: false
+  linked_clone: true
+
+provisioner:
+  name: chef_zero
+  always_update_cookbooks: true
+  data_bags_path: '<%= ENV.fetch("CHEF_DATA_BAG_PATH", "test/data_bags") %>'
+  encrypted_data_bag_secret_key_path: '<%= ENV.fetch("CHEF_DATA_BAG_DECRYPT_KEY", "~/.chef/secret.key") %>'
+  environments_path: '<%= ENV.fetch("CHEF_ENVIRONMENT_PATH", "test/environments") %>'
+  client_rb:
+    environment: '<%= ENV.fetch("CHEF_ENVIRONMENT", "dev") %>'
+
+verifier:
+  name: inspec
+  attrs:
+    - '<%= ENV.fetch("INSPEC_ATTRIBUTES_PATH", "test/attributes/dev.yml") %>'
+
+platforms:
+  - name: salesforce/server2016
+    transport:
+      name: winrm
+    driver:
+      vagrantfiles:
+        - '<%= ENV.fetch("CHEF_VAGRANTFILE", ".vagrant_without_join.rb") %>'
+      provision: true
+      memory: 4096
+  - name: salesforce/server2008r2
+    transport:
+      name: winrm
+    driver:
+      vagrantfiles:
+        - '<%= ENV.fetch("CHEF_VAGRANTFILE", ".vagrant_without_join.rb") %>'
+      provision: true
+      memory: 4096
+
+suites:
+  - name: role_windows_ims
+    run_list:
+      - recipe[role_windows_ims::default]

@@ -1,0 +1,17 @@
+{
+  "id": "windows_svc_accounts",
+  "username": {
+    "encrypted_data": "ZneYXKJbhqzPBgB1UGZisGiAxyjGJmiEvWk=\n",
+    "iv": "/OrBVtzd0UUZJe9E\n",
+    "auth_tag": "B8BMUUvo50KM5gwx8Kp17A==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "password": {
+    "encrypted_data": "tiSek4oJq5ykIhsXO/z7nf3fr/TXFhqRyKo=\n",
+    "iv": "DIHa0+QsWWXR4dc7\n",
+    "auth_tag": "LbxgDwnHlwNBtvUZM6vQXA==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}

@@ -1,0 +1,13 @@
+name: default
+title: Default Profile
+maintainer: Salesforce
+copyright: Salesforce
+copyright_email:  mc-infraautomation@salesforce.com
+version: 1.0.0
+license: all_rights
+supports:
+  - os-family: windows
+depends:
+  - name: sfmc-inspec-resources
+    git: git@github.exacttarget.com:InfrastructureAutomation/inspec-custom-resources.git
+    commit: master

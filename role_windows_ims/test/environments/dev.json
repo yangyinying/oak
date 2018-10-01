@@ -1,0 +1,42 @@
+{
+  "chef_type": "environment",
+  "default_attributes": {
+    "sf_machine_config": {
+      "appdynamics_account_name": "Unknown",
+      "appdynamics_application_name": "ExactTarget",
+      "appdynamics_controller_host": "localhost",
+      "appdynamics_controller_port": "443",
+      "appdynamics_ssl_enabled": "true",
+      "base_path": "",
+      "error_file": "D:\\Config\\Error.xml",
+      "et_preferences_location": "D:\\Config\\preferences.xml",
+      "etconfig_file_location": "D\\Config\\Exacttarget.xml",
+      "etdb_connection": "data source=localhost\\I01,10001; Integrated Security=SSPI;initial catalog=ETUser20000",
+      "external_url": "http://localhost",
+      "force_tree_ssl": "true",
+      "graphic_maker_url": "/GraphicMaker/",
+      "image_icon_path": "D:\\Inetpub\\GraphicMaker\\Icons\\",
+      "image_output_path": "D\\Inetpub\\GraphicMaker\\Brands\\",
+      "images_website": "http://localhost/",
+      "override_error_emails_to": "dev-null@bh.exacttarget.com",
+      "principal_business_rule_xml_cache_capacity": "1000",
+      "security_protocols": "Ssl3,Tls,Tls11,Tls12",
+      "smtp_address": "SMTPSvc-s1.qa5.QA.local",
+      "systemdb_connection_string": "data source=localhost\\I01,10001; Integrated Security=SSPI;initial catalog=SystemDB",
+      "use_principal_business_rule_xml_cache": "2"
+    },
+    "sf_windows_apps": {
+      "build": "latest",
+      "release": "MCET_214",
+      "repo": "sfmc-product-installers-dev-local",
+      "tnsadmin": "\\\\dev.local\\dev\\config\\oracle\\admin"
+    },
+    "sledgehammer": {
+      "db_string": "LAS1Q11C009.QA.LOCAL\\I08,10001",
+      "db_name": "Sledgehammer"
+    }
+  },
+  "description": "Dev/Localhost",
+  "json_class": "Chef::Environment",
+  "name": "dev"
+}

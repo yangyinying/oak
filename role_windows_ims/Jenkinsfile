@@ -1,0 +1,18 @@
+pipeline {
+    agent {
+        label 'kitchen'
+    }
+    options {
+        disableConcurrentBuilds()
+    }
+    stages {
+        stage('chef.cookbook.ci') {
+            steps {
+                build job: 'automation/chef.cookbook.ci', parameters: [
+                    string(name: 'cookbook', value: scm.userRemoteConfigs[0].url),
+                    string(name: 'branch', value: BRANCH_NAME)
+                ]
+            }
+        }
+    }
+}

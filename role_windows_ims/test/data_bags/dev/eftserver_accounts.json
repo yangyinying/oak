@@ -1,0 +1,17 @@
+{
+  "id": "eftserver_accounts",
+  "username": {
+    "encrypted_data": "XXWvf7HA/1VwkrtQMmuOpq1frv7FkOdoY6ZXZM5utdM=\n",
+    "iv": "LSg0IgUELPz//a66\n",
+    "auth_tag": "Nob4m5mWlRlPtzr/vW6V7g==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "password": {
+    "encrypted_data": "kKWNnMFRilLbJvodPza/Jr4qLZW1JEBt50WlUQ==\n",
+    "iv": "G9U7fCV/fSkRH33c\n",
+    "auth_tag": "5OVHFzeFM/YnyW9YLL6EAA==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}

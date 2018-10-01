@@ -1,0 +1,5 @@
+# frozen_string_literal: true
+
+source ENV.fetch('CHEF_SUPERMARKET_URL', :chef_server)
+
+metadata

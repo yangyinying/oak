@@ -1,0 +1,52 @@
+{
+  "id": "artifactory",
+  "server": {
+    "encrypted_data": "gGNkXBpNXkpcuU9VwIjDtT3b2dBZgt+rvsTe2/J/Sg6mnLKFEhGxRzbbcDu8\nRzQP14Q=\n",
+    "iv": "PY8vHQyI/+R0h47P\n",
+    "auth_tag": "4nak1cBx/dT1/WoPPyT1iw==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "username": {
+    "encrypted_data": "JsI8joR8wyQQaUTxrK5fiaYJHgZJIWWoRepgA2I=\n",
+    "iv": "UWD+Sy2dXe6zsu8K\n",
+    "auth_tag": "JZqcav2dI5PfPLMJxm8sLg==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "password": {
+    "encrypted_data": "S7BHo2IwvONUfLZmFpHcLbfzOQn5xOWoJx9VXTWklKeGqX8=\n",
+    "iv": "G1g3SxQ9rAvvodHX\n",
+    "auth_tag": "IA/3fB1mfCDmF01BTu+liQ==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "choco_repo": {
+    "encrypted_data": "3mh21A84IdZObor7GQcWneMw+OyYgOkXvevgLZd8NNSk4iG83H5u\n",
+    "iv": "soiMayz1u3IyqWCI\n",
+    "auth_tag": "FBSDQtjcT5hksZ9UKq/q6w==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "infra_repo": {
+    "encrypted_data": "2uFogXz4DuH84SVHZqDycZX/WdYi7JgMZUQrwYvvs3LLF6Nlsesk\n",
+    "iv": "tnf9vNDkwJoOnyiM\n",
+    "auth_tag": "7W4R/nF/PeK3eVLK1Zpx0g==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "api_key": {
+    "encrypted_data": "/cx7s/PDXG83fykaW4Xe+ZnhIvBTd9GPMxzOghZlio/ACfxHwuu6KdXpINTK\nhm5nA7XH6c21ogR9viwr+KmcjeJrrlxtfld0gG+z5hfIGCcJWMvEAVqtY8kX\n/E8=\n",
+    "iv": "HOahp6bbJe6aD2oG\n",
+    "auth_tag": "UuomJo/HGBbmfA2ZNGSMwA==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "api_auth_token": {
+    "encrypted_data": "5ShoKCBlMNECYWqkV7R5g1qgxYAhIvnUByRaAI0hFtZKmlpj227oZh6NRTSB\nMjzeXQNY8NGGwxEMJycyklo4zDTfiMGzIsj07iDj2USwJUtC5WwuS1bYQ/lc\nA0OJTwQpK7bLV/HA7boUzdqto7S+dP4HttzFB0BJISXXLz8HdGFe6VrQ\n",
+    "iv": "x6fdYkl0AMKve4kq\n",
+    "auth_tag": "oUA3dT+bsHaHiiN59jpiqw==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}
